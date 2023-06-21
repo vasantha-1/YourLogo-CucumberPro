@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="StepDefinition.logoClass">
+        <methods>
+          <include name="enter_email_address"/>
+          <include name="choose_quantity"/>
+          <include name="click_on_tech_accessories"/>
+          <include name="sort_by_version"/>
+          <include name="make_mouse_action_on_image"/>
+          <include name="click_on_charges_and_power_banks"/>
+          <include name="click_on_office_and_technology"/>
+          <include name="enable_click_on_remember_me"/>
+          <include name="enter_password"/>
+          <include name="click_on_image"/>
+          <include name="write_ask_a_question"/>
+          <include name="click_on_shop_by_product"/>
+          <include name="choose_showing_count"/>
+          <include name="choose_color_mode"/>
+          <include name="open_your_logo_website"/>
+          <include name="choose_display_mode"/>
+          <include name="selcet_price_mode"/>
+          <include name="select_black_color"/>
+          <include name="choose_white_color"/>
+          <include name="click_on_shop_now"/>
+          <include name="click_on_sign_in"/>
+          <include name="select_white_color"/>
+          <include name="click_on_login"/>
+        </methods>
+      </class> <!-- StepDefinition.logoClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
